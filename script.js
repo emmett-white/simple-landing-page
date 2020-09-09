@@ -55,7 +55,7 @@ const init_day = async () => {
 			day.innerHTML = 'Saturday'
 			break
 
-		case 7:
+		default:
 			day.innerHTML = 'Sunday'
 			break
 	}
