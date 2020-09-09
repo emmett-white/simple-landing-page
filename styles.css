@@ -1,0 +1,51 @@
+/*                 */
+/*      Tags       */
+/*                 */
+
+* {
+	font-family: sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+
+/*                 */
+/*     Classes     */
+/*                 */
+
+.bg {
+	background: url("https://i.pinimg.com/originals/e7/50/ae/e750ae72abaf9bc98d08774c299046af.jpg") no-repeat center;
+	background-size: cover;
+
+	min-height: 100vh;
+	opacity: .8;
+}
+
+.box {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	position: absolute;
+}
+
+/*                 */
+/*       IDs       */
+/*                 */
+
+#time {
+	display: inline;
+
+	font-size: 4rem;
+}
+
+#day {
+	font-size: 25px;
+}
+
+#message {
+	font-size: 18px;
+	font-weight: bold;
+}
